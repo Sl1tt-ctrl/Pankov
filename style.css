@@ -166,3 +166,23 @@ body {
   background: #555;
   color: #fff;
 }
+
+/* Game Title Section */
+.game-title-section {
+  text-align: center;
+  padding: 60px 20px 50px;
+  background: #fff;
+}
+
+.game-title-section h2 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #4A4A4A;
+  margin-bottom: 40px;
+}
+
+.title-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
