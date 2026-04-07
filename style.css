@@ -232,3 +232,81 @@ body {
   border-bottom: 14px solid transparent;
   margin-left: 6px;
 }
+
+/* Features Section */
+.features {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+
+.feature-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-text {
+  flex: 1;
+}
+
+.feature-text h3 {
+  font-size: 26px;
+  font-weight: 300;
+  color: #4A4A4A;
+  line-height: 1.3;
+}
+
+.feature-image {
+  flex: 1;
+}
+
+.feature-image img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Specs Section */
+.specs-section {
+  background: #E8E8E8;
+  padding: 50px 20px 60px;
+}
+
+.specs-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.specs-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 300;
+  color: #4A4A4A;
+  margin-bottom: 35px;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px 40px;
+  margin-bottom: 40px;
+}
+
+.spec-item {
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 1.4;
+}
+
+.specs-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
