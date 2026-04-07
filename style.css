@@ -20,6 +20,78 @@ font-face {
 }
 
 :root {
-  --font-family: "HelveticaNeue", sans-serif;
+  font-family: "HelveticaNeue", sans-serif;
 }
 
+body {
+  color: #4A4A4A;
+  line-height: 1.4;
+}
+
+/* Navigation */
+.navbar {
+  background: #333333;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #9BF00B;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding-left: 1100px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-box input {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 2px;
+  font-size: 13px;
+  width: 160px;
+}
+
+.user-menu {
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.user-icon {
+  font-size: 16px;
+}
